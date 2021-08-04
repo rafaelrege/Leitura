@@ -1,0 +1,235 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	vertical-align:middle;
+}
+body{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3)), url("fundo-agua2.jpg");
+	background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	font-family: arial;
+	font-family: "Lato", sans-serif;
+	linear-gradient(0.5, 0 , 0);
+}
+
+/*ESTILOS GERAIS */
+		.container {
+			//width: 50%;
+			
+			
+		}
+		/*ESTILOS FORMULARIO */
+		.areaPesquisa {
+			//border-radius: 5px;
+			background-color: rgba(41,100,200,1.0);
+			padding: 10px;
+			width: 28.2%;
+			margin:30px  3% ;
+			text-align: left;
+		}
+		
+		}
+		input{
+			padding 10px;
+			margin 8px 0;
+			border 1px solid #000;
+			border-radius: 4px;
+		}
+		
+		input[type=text]{
+			width: 40%;
+		}
+		
+		input[type=submit]{
+			width: 20%;
+			background-color: #1874CD;
+			color: #FFF;
+			cursor: pointer;
+			margin 8px 0 ;
+		}
+		input[type=button]{
+			width: 20%;
+			background-color: #1874CD;
+			color: #FFF;
+			cursor: pointer;
+		}
+		/*ESTILOS TABELA */
+		
+		table{
+			border-collapse: collapse;
+			width: 100%;
+			margin-top: 0px;
+		}
+		
+		table th{
+			background-color: #1874CD;
+			color: #000;
+			height: 30px;
+		}
+
+
+
+
+
+div#corpo-form{
+	
+	width: 30%;
+	
+	margin:50px  3% 0px 20px ;
+	//color: white;
+}
+
+div#corpo-tab-mes{
+	display: flexbox;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position:absolute;
+	background-color: rgba(50,172,218,1.0);
+	width: 20%;
+	right: 2%;
+	margin:206px ;
+	text-align: center;
+
+	
+}
+div#corpo-tab{
+	background-color: rgba(50,172,218,1.0);
+	width: 30%;
+	margin:30px  3% ;
+	line-height: 1.8;
+	
+
+}
+
+div#corpo-form-cad{
+	width: 95%;
+	//color: white;
+	margin:10px;
+
+}
+
+div#corpo-form ,div#corpo-form-cad h1{
+	text-align: center;
+	padding: 0px;
+	
+
+}
+
+a{
+	color:black;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+input[type=submit] {
+	background-color: rgb(50,172,218);
+	border:none;
+	cursor: pointer;
+}
+input[type=button] {
+	background-color: rgb(50,172,218);
+	border:none;
+	cursor: pointer;
+}
+
+::webkit-input-placeholder{
+	color: #fff;
+	text-transform: capitalize; 
+}
+
+::moz-placeholder{
+	color: #fff;
+	text-transform: capitalize; 
+}
+
+div#msg-sucesso{
+	width: 400px;
+	margin:10px auto 0px auto;
+	padding: 10px;
+	background-color: rgba(50,205,50,.8);
+	border: 1px solid rgb(34,139,34);
+
+}
+
+div.msg-erro{
+	
+	width: 400px;
+	margin:10px auto 0px auto;
+	padding: 10px;
+	background-color: rgba(242,23,29,.8);
+	border: 1px solid rgb(165,42,42);
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+div#corpo-noticia{
+	width: 20%;
+	margin:30px  3% ;
+	
+	height: 50%;
+	
+}
+
+div#corpo-imagem{
+	margin-top: 1%; 
+	height: 40%;
+	margin: 3%  auto ;
+	width:196;
+background-color: rgba(101,112,107,0.2) ;
+}
+div#corpo-texto{
+	height: auto;
+	width:196;
+	margin:-1px auto auto auto ;
+	background-color: rgba(101,112,107,0.2) ;
+}
+
+div#coluna {
+	margin-left: 10%;
+	float: left;
+}
